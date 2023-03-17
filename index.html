@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency converter</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/file.js"></script>
+</head>
+
+<body>
+    <form class="form js-form">
+        <h1 class="form__header">CURRENCY CONVERTER</h1>
+        <div class="container">
+            <p>
+                <label>
+                    Amount: <input type="number" min="0" name="amount" class="container__amountElement js-amount"
+                        step="0.01" placeholder="enter amount in PLN" autofocus>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Currency:
+                    <select name="Currency" class="container__currencyElement js-currency">
+                        <option value="EUR" selected>EUR - European euro</option>
+                        <option value="USD">USD - American dollar</option>
+                        <option value="GBP">GBP - British pound</option>
+                    </select>
+                </label>
+            </p>
+        </div>
+
+        <div class="form__result js-result"> </div>
+
+        <p>
+            <button type="submit" class="form__submitButton js-calculate" >
+                CALCULATE!
+            </button>
+        </p>
+
+        <p class="form__info">Currency rates taken from <strong>Google Finance</strong> website on 06.03.2023</p>
+    </form>
+</body>
+
+</html>
