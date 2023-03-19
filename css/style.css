@@ -2,6 +2,13 @@ html {
     box-sizing: border-box;
 }
 
+body{
+    background-image:url(https://www.linkpicture.com/q/coins_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 *,
 ::before,
 ::after {
@@ -9,7 +16,7 @@ html {
 }
 
 .form {
-    margin: 275px auto 0;
+    margin: 350px auto 0;
     max-width: 650px;
     background-color: rgba(255, 228, 196, 0);
     text-align: center;

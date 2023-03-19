@@ -26,9 +26,3 @@ formElement.addEventListener("submit", (event) => {
 
     resultElement.innerHTML = `${amountElement.value} PLN = <strong>${result.toFixed(2)}</strong> ${currencyElement.value}`;
 });
-
-
-
-
-
-
