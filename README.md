@@ -2,7 +2,7 @@
 
 ## Converting PLN amounts into different currencies
 ### Demo:
-https://github.com/BoosterTech/Currency-calculator.git
+ https://boostertech.github.io/Currency-calculator/
 ### How it work?
 1. Insert an **Amount** in PLN (required field)
 2. Choose **Currency** you would like to convert to
