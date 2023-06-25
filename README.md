@@ -4,7 +4,7 @@
 - HTML, CSS, JavaScript (including "ECMAScript 6" features)
 - BEM
 ### Demo:
- https://boostertech.github.io/Currency-calculator/
+ https://boostertech.github.io/Currency-Calculator/
 ### How it works?
 1. Insert an **Amount** in PLN (*required field).
 2. Choose **Currency** you would like to convert to.
