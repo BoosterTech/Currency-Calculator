@@ -1,7 +1,6 @@
 {
     const init = () => {
         const formElement = document.querySelector(".js-form");
-
         formElement.addEventListener("submit", onFormSubmit);
     }
 
@@ -30,12 +29,13 @@
 
         const result = calculateResult(amount, currency);
         resultElement.innerHTML = `${amount} PLN = <strong>${result.toFixed(2)}</strong> ${currency}`;
+        amountElement.value = "";
     }
 
     const onFormSubmit = (event) => {
         event.preventDefault();
         updateResult();
     }
-    
+
     init();
 }
