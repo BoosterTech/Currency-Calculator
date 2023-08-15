@@ -21,11 +21,9 @@ body {
 
 .form {
     margin: auto;
-    max-width: 650px;
+    width: 550px;
     background-color: rgba(255, 228, 196, 0);
     padding: 15px;
-    /* border: 1px solid black;
-    border-radius:5px ; */
 }
 
 .form__header {
